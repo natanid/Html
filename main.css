@@ -16,6 +16,7 @@ p {
     }
 body {
     background-image: url("backgroundImage.jpg");
+    background-size: 100%;
     background-repeat: repeat-x;
     background-position: right top;
     text-align: center;
