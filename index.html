@@ -1,66 +1,104 @@
 <!DOCTYPE HTML>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>Amasing page</title>
- </head>
- <body>
- <h1></h1>
- <h1><a name ="qwerty"></a><em>My Amasing page</em></h1>
- <form>
-   <p><select name="food">
-     <optgroup label="Art">
-     <option value="r1">Abstract</option>
-     <option value="r2">Abstract Expressionism</option>
-     <option value="r3">realism</option>
-	 <option value="r3">Photorealism</option>
-    </optgroup>
-    <optgroup label="Drawings">
-     <option value="u1">1</option>
-     <option value="u2">2</option>
-     <option value="u3">2</option>
-    </optgroup>
-   </select></p>
-   <p><input type="submit" value="Отправить"></p>
-  </form>
-  <form action="handler.php">
-   <p><strong>Enter your message</strong></p>
-   <p><textarea name="comment"></textarea></p>
-   <p><input type="submit"></p>
-  </form>
-   <form>
-   <p><b>Something to choose</b></p>
-    <p><input name="options" type="radio" value="c"> Option1</p>
-    <p><input name="options" type="radio" value="option2"> Option2</p>
-    <p><input name="options" type="radio" value="option3" checked> Option3</p>
-    <p><input type="submit" value="Select"></p>
-  </form> 
- <h3><em>Header</em></h3>
- <h4>Header</h4>
- <h5>Header</h5>
- <h5>Header</h6>
- <p><ins><strong>Brackets</strong></ins> — бесплатный редактор с открытым кодом для веб-разработчиков. Brackets ориентрован на работу с <em>HTML</em>, <em>CSS</em> и <em>JavaScript</em>.
- <br>Эти же технологии лежат в основе самого редактора, что обеспечивает его кроссплатформенность т.е. совместимость с операционными системами <em>Mac</em>, <em>Windows</em> и <em>Linux</em>. 
- Brackets создан и развивается Adobe Systems под лицензией <em>MIT License</em> и поддерживается на <em>GitHub</em>.
 
-<br>На сегодняшний день сообществом создано множество расширений, добавляющих большинство необходимых инструментов для работы над кодом, таких как система контроля версий Git, 
-просмотр HTML-кода в браузере в реальном времени (Live Preview), 
-синхронизация с FTP (Git-FTP)[1]. 
-<br>Принять участие в разработке и поддержке расширений может любой желающий.
-C<sub>2</sub>H<sub>5</sub>(OH)<sup>1</sup>
- </p>
- <hr>
- <ol>
-  <li>
-   explain to 1
-  </li>
- </ol>
- <ul>
-  <li><a href="#qwerty"> fjfj1</a></li>
-  <li>fjfj2</li>
-  <li>fjfj3</li>
- </ul>
- </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Amasing page</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1><a name ="qwerty"></a><em>My Amasing page</em></h1>
+        <h3><em>Header3</em></h3>
+        <p>
+            <strong><em>Indentator</em></strong>  - Extension for Adobe Brackets
+            Re-indent a document according to your current indentation settings.
+            Useful for converting someone else's style to your own. Run by selecting Indent Document under the Edit menu, or using the Ctrl+Alt+I shortcut.
+            Install
+            From the extension manager, search for 'Indentator' and press 'Install'.
+            <em><a href="https://github.com/ahuth/brackets-indentator">This is a Brackets link</a></em>
+
+        </p>
+        <h4>Header4</h4>
+        <p class="date">
+            on 28 of February, Saturday
+        </p>
+        <p>
+            The event going to happen on <em class="date">Saturday</em>.
+        </p>
+        <p>
+            A modern, open source text editor that understands web design.
+            <em><a href="http://brackets.io/">This is a Brackets link</a></em>
+        </p>
+
+        <h5>Header5</h5>
+        <p>
+            With focused visual tools and preprocessor support, Brackets is a modern text editor that makes it easy to design in the browser. It's crafted from the ground up for web designers and front-end developers.
+        </p>
+        <p>
+            <q>Ctrl-Alt-C Collapse code region at current cursor position</q>
+            Ctrl-Alt-X Expand code region at current cursor position
+            <q>Alt-1 Collapse all code regions in current editor</q>
+            Shift-Alt-1 Expand all code regions in current editor
+        <blockquote>test</blockquote>
+        </p>
+    <h6>Header6</h6>
+    <p>
+        <ins><strong>Brackets</strong></ins> — бесплатный редактор с открытым кодом для веб-разработчиков. Brackets ориентрован на работу с <em>HTML</em>, <em>CSS</em> и <em>JavaScript</em>.
+        <br>Эти же технологии лежат в основе самого редактора, что обеспечивает его кроссплатформенность т.е. совместимость с операционными системами <em>Mac</em>, <em>Windows</em> и <em>Linux</em>. 
+        Brackets создан и развивается Adobe Systems под лицензией <em>MIT License</em> и поддерживается на <em>GitHub</em>.
+
+        <br>На сегодняшний день сообществом создано множество расширений, добавляющих большинство необходимых инструментов для работы над кодом, таких как система контроля версий Git, 
+        просмотр HTML-кода в браузере в реальном времени (Live Preview), 
+        синхронизация с FTP (Git-FTP)[1]. 
+        <br>Принять участие в разработке и поддержке расширений может любой желающий.
+        C<sub>2</sub>H<sub>5</sub>(OH)<sup>1</sup>
+    </p>
+    <hr>
+    <ol>
+        <li>
+            explain to 1
+        </li>
+    </ol>
+    <ul>
+        <li><a href="#qwerty"> fjfj1</a></li>
+        <li>fjfj2</li>
+        <li>fjfj3</li>
+    </ul>
+    <form>
+        <p><select name="food">
+            <optgroup label="Art">
+                <option value="r1">Abstract</option>
+                <option value="r2">Abstract Expressionism</option>
+                <option value="r3">realism</option>
+                <option value="r3">Photorealism</option>
+            </optgroup>
+            <optgroup label="Drawings">
+                <option value="u1">1</option>
+                <option value="u2">2</option>
+                <option value="u3">2</option>
+            </optgroup>
+            </select>
+        </p>
+        <p><input type="submit" value="Отправить"></p>
+    </form>
+    <form action="handler.php">
+        <p><strong>Enter your message</strong></p>
+        <p><textarea name="comment"></textarea></p>
+        <p><input type="submit"></p>
+    </form>
+    <form>
+        <p><b>Something to choose</b></p>
+        <p><input name="options" type="radio" value="c"> Option1</p>
+        <p><input name="options" type="radio" value="option2"> Option2</p>
+        <p><input name="options" type="radio" value="option3" checked> Option3</p>
+        <p><input type="submit" value="Select"></p>
+    </form> 
+    <form>
+        <input name="login">
+        <form><input type="submit">
+        </form>
+    </form>
+    </body>
 </html>
 
 

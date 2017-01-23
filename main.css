@@ -1,0 +1,38 @@
+q, blockquote {
+  background: lightgreen;
+  color: darkgreen;
+}
+.date{
+    color: darkslateblue;
+}
+em.date {
+  color: blue;
+}
+body {
+    background-image: url("backgroundImage.jpg");
+    background-repeat: repeat-x;
+    background-position: right top;
+}
+
+body {
+    background-color: lightblue;
+}
+h1 {
+    background-color: green;
+}
+
+div {
+    background-color: lightblue;
+}
+
+p {
+    background-color: #f8f89f;
+}
+
+
+/* header{
+    background-image: url("backgroundImage.jpg");
+}
+footer{
+    background-image: url("backgroundImage.jpg");
+} /
