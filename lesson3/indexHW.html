@@ -1,0 +1,45 @@
+<!DOCTYPE Html>
+<html>
+    /*створити таблицю на всю ширину і висоту екрану, використати в ній
+    мінімум 2 колспани і 2 ровспани, і мінімум 1 колспан і ровспан в
+    одному тегові td. В кожній клітинці має бути інший бекграунд. Не
+    менше 2 картинок на бекграунді.*/
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styleHW.css">
+        <title>Lesson 3 HW </title>
+    </head>
+    <body>
+        <table>
+            <caption>Table name Lesson 3 HW</caption>
+            <tr>
+                <td rowspan="2" bgcolor="#FF0000">1 rowspan</td>
+                <td bgcolor="#183c3a">2</td>
+                <td rowspan="2" bgcolor="#d419d4">3 rowspan</td>
+                <td bgcolor="#ffd800">4</td>
+                <td bgcolor="#00fff5">5</td>
+            </tr>
+            <tr>
+                <td bgcolor="#0000ff">1</td>
+                <td rowspan="2" colspan="2" bgcolor="#ffba00"> <img src="image.jpg" style="width: 130px" />2 colspan+rowspan <img src="image1.jpg" style="width: 130px" /> </td>
+            </tr>
+            <tr>
+                <td bgcolor="#0000ff">3</td>
+                <td bgcolor="#FF0000"></td>
+                <td bgcolor="#00fff5"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#00fff5">4</td>
+                <td colspan="3" bgcolor="#00ff80">colspan</td>
+                <td bgcolor="#FF0000"></td>
+
+            </tr>
+            <tr>
+                <td bgcolor="#0000ff">5</td>
+                <td colspan="3" bgcolor="#00ff31">colspan</td>
+                <td bgcolor="#00fff5"></td>
+            </tr>
+        </table>
+        <div class="squareHW"></div>
+    </body>
+</html>

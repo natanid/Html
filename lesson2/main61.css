@@ -1,0 +1,32 @@
+*{
+ color: blue;
+}
+body{
+ font-size: 18px;
+}
+.one{
+ font-style: italic;
+}
+.two{
+ font-weight: bold;
+}
+#id{
+ font-size: 22px;
+ 
+}
+.list{
+ list-style-position: inside;
+ list-style-type: square;
+ list-style-image: url(point.gif);
+}
+.text{
+ outline: blue solid 20px;
+ border-radius: 140px;
+ border: 4px solid orange;
+ line-height: 1.5;
+ text-align: justify;
+ text-align-last: justify;
+ text-indent: 50px;
+ text-shadow: 1px 1px #5eed5e;
+ word-spacing: 2px;
+}

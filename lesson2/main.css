@@ -16,7 +16,7 @@ p {
     }
 body {
     background-image: url("backgroundImage.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: repeat-x;
     background-position: right top;
     text-align: center;
@@ -46,3 +46,15 @@ h1 {
 footer{
     background-image: url("backgroundImage.jpg");
 } /
+ Для всех ссылок <a>.
+
+footer a 
+Для всех ссылок <a> внутри <footer>.
+
+ a.link Для всех ссылок <a> с классом link.
+
+ Для всех элементов <ul>.
+
+ ul.menu li Для всех элементов <li>, расположенных внутри <ul> с классом menu.
+
+ div.block Для всех элементов <div> с классом block.

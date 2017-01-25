@@ -1,0 +1,32 @@
+table{
+    border: 2px black;
+    border-spacing: 0;
+    border-collapse: collapse; /* промежутки между рамками */
+    caption-side: top;
+    /* empty-cells: hide; */
+}
+tr{
+    transition-duration: 3s; /* color disappears*/
+}
+tr:hover{
+    background-color: aquamarine;
+    transition-duration: 10s; /* color appears*/
+}
+td{
+    border: 2px solid black; /* рамка ячейки */
+    width: 50px;
+    height: 10px;
+}
+.square{
+    width: 500px;
+    height: 300px;
+    background-color: aquamarine;
+    background-image: url(image.jpg);
+    background-attachment: scroll; /* фон зафиксированный / скролится вместе со страницей */
+    background-clip: padding-box; /* рамка и рисунок перекрывается или нет */
+    border: 10px dotted black;
+    background-origin: padding-box;
+    background-position: center center; /*   px, %   */
+    background-repeat: no-repeat no-repeat;
+    background-size: contain; /*   px, %   */
+} 
