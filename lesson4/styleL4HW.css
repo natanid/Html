@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: block;
+}
+.main-header{
+    background-color: aquamarine;
+    /*    font-size: 0;*/
+    vertical-align: top;
+    text-align: center;
+}
+.header-banner{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.menu-top{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+}
+.top-header-menu-list{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+}
+.top-header-menu-item{
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 8px;
+}
+.top-content{
+    background-color: aqua;
+    display: inline-block;
+    float: left;
+}
+.center-content
+{
+    background-color: aqua;
+    display: inline-block;
+    float: left;
+}
+.left{
+    width: 38%;
+    height: 300px;
+    background-color: beige;
+    float: left;
+}
+.center{
+    width: 38%;
+    height: 300px;
+    background-color: beige;
+    float: left;
+}
+.right{
+    width: 62%;
+    height: 300px;
+    background-color: blueviolet;
+    float: left;
+}
+.clear-fix::after, .clear-fix::before{
+    content: "";
+/*    display: block;*/
+    clear: both;
+}
+/*
+.main-header>div{
+width: 25%;
+height: 70px;
+padding: 20px 0;
+border: 2px solid black;
+box-sizing: border-box;
+display: inline-block;
+text-align: center;
+}
+*/
+.fix{
+    margin-left: -0.25em;
+
+}
+/*
+.footer{
+height: 70px;
+background-color: #ff006c;
+}*/
