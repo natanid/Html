@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lesson 5</title>
+        <style>
+            input [type=radio]{
+                display: none;
+            }
+            input:checked+label{
+                font-weight: bold;
+            }
+            .beauty:focus{
+                outline: 2px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="login">Login:</label>
+            <input name="login" id="login" class="beauty"
+                   pattern="^[a-zA-Z+&]"> 
+            <!--            "^[a-zA-Z+&]/* validation */-->
+            <input name="pass" type="password" placeholder="enter something" class="beauty">
+            <label for="gender">Are you a man?</label>
+            <input name="gender" type="checkbox" value="1" id="gender">
+            <div>
+                <input type="radio" name="alko option" id="vine" value="1" checked>
+                <label for="vine">Vine</label>
+                <input type="radio" name="alko option" id="pyvo" value="2">
+                <label for="pyvo">Pyvo</label>
+                <select name="country">
+                    <option value="1">Ukraine</option>
+                    <option value="2" selected >uk</option>
+                    <option value="3" disabled>asr</option>
+                </select>
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </body>
+</html>
